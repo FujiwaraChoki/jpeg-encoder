@@ -1,0 +1,72 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\pgfsyspdfmark {pgfid1}{4661699}{49998395}
+\HyPL@Entry{1<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Encoding Pipeline Overview}{2}{subsection.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces JPEG encoding pipeline showing the transformation from RGB input to compressed output.}}{2}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:pipeline}{{1}{2}{JPEG encoding pipeline showing the transformation from RGB input to compressed output}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Color Space Conversion}{3}{section.2}\protected@file@percent }
+\newlabel{sec:colorspace}{{2}{3}{Color Space Conversion}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Mathematical Formulation}{3}{subsection.2.1}\protected@file@percent }
+\newlabel{eq:rgb2ycbcr}{{1}{3}{Mathematical Formulation}{equation.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Implementation}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Chroma Subsampling}{4}{section.3}\protected@file@percent }
+\newlabel{sec:subsampling}{{3}{4}{Chroma Subsampling}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Subsampling Modes}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Comparison of chroma subsampling modes. 4:2:0 reduces chroma data to 25\% of original.}}{4}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:subsampling}{{2}{4}{Comparison of chroma subsampling modes. 4:2:0 reduces chroma data to 25\% of original}{figure.caption.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Subsampling Mode Comparison}}{4}{table.caption.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discrete Cosine Transform (DCT)}{5}{section.4}\protected@file@percent }
+\newlabel{sec:dct}{{4}{5}{Discrete Cosine Transform (DCT)}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}2D-DCT Formula}{5}{subsection.4.1}\protected@file@percent }
+\newlabel{eq:dct}{{2}{5}{2D-DCT Formula}{equation.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}DCT Basis Functions}{5}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The 64 DCT basis function positions. $(u,v)$ indicates frequency indices. Upper-left (0,0) is DC; frequency increases toward lower-right.}}{5}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:dct_basis}{{3}{5}{The 64 DCT basis function positions. $(u,v)$ indicates frequency indices. Upper-left (0,0) is DC; frequency increases toward lower-right}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Matrix Implementation}{6}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Implementation}{6}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Quantization}{7}{section.5}\protected@file@percent }
+\newlabel{sec:quantization}{{5}{7}{Quantization}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Quantization Formula}{7}{subsection.5.1}\protected@file@percent }
+\newlabel{eq:quant}{{6}{7}{Quantization Formula}{equation.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Standard Quantization Tables}{7}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Standard JPEG quantization tables (ITU-T T.81). Higher values = more compression.}}{7}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:quant_tables}{{4}{7}{Standard JPEG quantization tables (ITU-T T.81). Higher values = more compression}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Quality Scaling}{7}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Zigzag Scanning \& Run-Length Encoding}{8}{section.6}\protected@file@percent }
+\newlabel{sec:zigzag}{{6}{8}{Zigzag Scanning \& Run-Length Encoding}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Zigzag Pattern}{8}{subsection.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Zigzag scan begins at DC (green) and proceeds toward high frequencies.}}{8}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:zigzag}{{5}{8}{Zigzag scan begins at DC (green) and proceeds toward high frequencies}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Run-Length Encoding}{8}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Huffman Encoding}{9}{section.7}\protected@file@percent }
+\newlabel{sec:huffman}{{7}{9}{Huffman Encoding}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}DC Coefficient Encoding}{9}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Standard DC Luminance Huffman Table}{9}{subsection.7.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces DC Luminance Huffman Codes (Partial)}}{9}{table.caption.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Bit Writing with Byte Stuffing}{9}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}JPEG File Structure}{11}{section.8}\protected@file@percent }
+\newlabel{sec:filestructure}{{8}{11}{JPEG File Structure}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Marker Overview}{11}{subsection.8.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces JPEG file structure showing marker sequence.}}{11}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:filestructure}{{6}{11}{JPEG file structure showing marker sequence}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}SOF0 Component Specification}{11}{subsection.8.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces SOF0 Component Parameters for Different Subsampling Modes}}{11}{table.caption.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Implementation Results}{12}{section.9}\protected@file@percent }
+\newlabel{sec:results}{{9}{12}{Implementation Results}{section.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Compression Performance}{12}{subsection.9.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Compression ratio vs.\ quality factor for different subsampling modes.}}{12}{figure.caption.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Quality Metrics}{12}{subsection.9.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces PSNR Results for 256$\times $256 Test Image}}{12}{table.caption.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}Usage Guide}{13}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Command Line}{13}{subsection.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Python API}{13}{subsection.10.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11}References}{13}{section.11}\protected@file@percent }
+\newlabel{LastPage}{{11}{13}{References}{page.13}{}}
+\gdef\lastpage@lastpage{13}
+\gdef\lastpage@lastpageHy{13}
+\gdef \@abspage@last{14}

@@ -12,7 +12,7 @@ This module implements a complete baseline JPEG encoder from scratch, including:
 - Huffman encoding with standard JPEG tables
 - Complete JPEG file structure with all required markers
 
-Author: JPEG Encoder Implementation
+Author: Sami Hindi
 """
 
 import numpy as np

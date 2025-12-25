@@ -1,0 +1,13 @@
+from jpeg import encode_image, save_jpeg, SubsamplingMode
+import numpy as np
+
+# Load or create image
+image = np.random.randint(0, 256, (512, 512, 3), dtype=np.uint8)
+
+# Encode to bytes
+jpeg_bytes = encode_image(image, quality=85)
+
+# Save to file
+save_jpeg(image, "output.jpg",
+          quality=90,
+          subsampling=SubsamplingMode.MODE_420)

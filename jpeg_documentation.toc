@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Encoding Pipeline Overview}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Color Space Conversion}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Mathematical Formulation}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Implementation}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Chroma Subsampling}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Subsampling Modes}{4}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Discrete Cosine Transform (DCT)}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}2D-DCT Formula}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}DCT Basis Functions}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Matrix Implementation}{6}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Implementation}{6}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Quantization}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Quantization Formula}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Standard Quantization Tables}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Quality Scaling}{7}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Zigzag Scanning \& Run-Length Encoding}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Zigzag Pattern}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Run-Length Encoding}{8}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Huffman Encoding}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}DC Coefficient Encoding}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Standard DC Luminance Huffman Table}{9}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Bit Writing with Byte Stuffing}{9}{subsection.7.3}%
+\contentsline {section}{\numberline {8}JPEG File Structure}{11}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Marker Overview}{11}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}SOF0 Component Specification}{11}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Implementation Results}{12}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Compression Performance}{12}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Quality Metrics}{12}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Usage Guide}{13}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Command Line}{13}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Python API}{13}{subsection.10.2}%
+\contentsline {section}{\numberline {11}References}{13}{section.11}%
